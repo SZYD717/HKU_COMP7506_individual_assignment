@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    Element in navigation view-->
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/index"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_connect"
+        android:icon="@drawable/message"
+        android:title="Connect"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_resume"
+        android:icon="@drawable/resume"
+        android:title="Resume"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_personal"
+        android:icon="@drawable/personal"
+        android:title="Personal Space"
+        app:showAsAction="always" />
+</menu>
